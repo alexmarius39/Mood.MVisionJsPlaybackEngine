@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SSSP4MVisionJsPlaybackEngine/SSSP4MVisionJsPlaybackEngine.wgt&apos; to &apos;SSSP4MVisionJsPlaybackEngine.wgt.good2&apos;" description="Rename resource &apos;SSSP4MVisionJsPlaybackEngine.wgt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="SSSP4MVisionJsPlaybackEngine.wgt" name="SSSP4MVisionJsPlaybackEngine.wgt.good2" stamp="1583699070708" updateReferences="true"/>
+</session>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script>
+        function init() {
+            console.log("init");
+            //alert("init");
+            loadAppInfo();
+            window.Loader.getComponents().then(
+                function(components) {
+                    try {
+                        updateView(components[0].params[0].value[0]);
+                    } catch (err) {
+                        window.Loader.error(err.toString());
+                    }
+                }
+            );
+            function updateView(imageSrc) {
+                document.getElementById("image").addEventListener("load", function() {
+                    console.log("picture loaded: " + new Date().getTime());
+                    window.Loader.ready();
+                });
+                document.getElementById("image").src = imageSrc;
+                console.log("updateView: " + new Date().getTime());
+            }
+
+
+            function loadAppInfo() {
+                 var xhttp = new XMLHttpRequest();
+                //alert("loadAppInfo()");
+                 xhttp.open("GET", "package.json", false);
+                 xhttp.send();
+                        try {
+                            //alert(xhttp.responseText);
+                            var appInfo = JSON.parse(xhttp.responseText);
+                            document.getElementById("version").innerHTML = "&nbsp;VERSION: " + appInfo.version;
+                        } catch (err) {
+                            console.log(err);
+                        }
+             }
+
+
+            function loadAppInfo2() {
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function() {
+                    if ( (xhttp.readyState === 4 || xhttp.readyState === 0) && xhttp.status === 200) {
+                        try {
+                            var appInfo = JSON.parse(xhttp.responseText);
+                            document.getElementById("version").innerHTML = "&nbsp;VERSION: " + appInfo.version;
+                        } catch (err) {
+                            console.log(err);
+                        }
+                    }
+                };
+                xhttp.open("GET", "package.json");
+                xhttp.send();
+            }
+        }
+    </script>
+    <script src="js/es6-shim.min.js" type="text/javascript"></script>
+    <script src="js/template-loader.js" type="text/javascript"></script>
+
+</head>
+
+<body onLoad="init();">
+    <p id="version" style="color: #ff0000; font-weight: bold;"></p>
+    <div class="zone imageZone">
+        <img id="image" class="image"/>
+    </div>
+</body>
+</html>

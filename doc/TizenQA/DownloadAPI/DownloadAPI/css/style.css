@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "samsung-600";
+    src: url('../src/SamsungOneUI-600.ttf');
+}
+
+ul, li { list-style: none}
+h1 {margin: 30px 0 5px 0;}
+html {
+    height: 1080px;
+    width: 1920px;
+    color: #ccc;
+    text-align: center;
+    font-family: "samsung-600";
+    position: absolute;
+    background: url(../src/srt_logo_w.png) no-repeat 160px 658px, -webkit-linear-gradient(top left, #0e1723, #052c4e);
+}
+
+#wrap {
+    width: 1670px;
+    height: 1080px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    top: 0;
+}
+
+#demo-version {
+    position: absolute;
+    right: 50px;
+}
+.container {
+    border: 1px dotted #B0B0B0;
+    background-color: rgba(255, 255, 255,0.1);
+    border-radius: 15px;
+    box-shadow: 0 0 13px 0px rgba(0, 0, 0, 0.3);
+}
+
+#main-section {
+    width: 1010px;
+    height: 180px;
+    float: left;
+    line-height: 80px;
+    color: grey;
+    margin: 35px 0 0 35px;
+}
+
+#main-section > .col-3{
+  width: 30%;
+  display: inline-block;
+}
+
+#instructions-wrap {
+    float: left;
+    width: 515px;
+    height: 180px;
+    margin: 35px 35px 20px 35px
+}
+
+#logs,
+#instructions-wrap > ul { text-align: left; }
+
+#logs-container {
+    height: 720px;
+    width: 1600px;
+    overflow-y: scroll;
+    margin-left: 35px;
+    clear: both;
+}
+
+#logs {
+    width: 1500px;
+    margin: 10px;
+    color:#56c2dc;
+}
+
+#logs .error { color: #ff6464 }
+#logs p { margin: 0;}
+
+h5 {
+    background: rgba(2, 2, 2, 0.2);
+    height: 40px;
+    line-height: 40px;
+    margin-top: 0;
+}
+
+#logs-container h5 {
+    position: absolute;
+    width: inherit;
+}

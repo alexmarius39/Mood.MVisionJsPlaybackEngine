@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Media Template</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/es6-shim.min.js" type="text/javascript"></script>
+    <script src="./js/template-loader.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+   
+
+    <img id="preview" src="./images/preview.jpeg">
+
+    <div id="console"></div>
+    <script src="./js/dom-console.js" type="text/javascript"></script>
+
+    <div id="headerText"></div>
+    <div id="bodyContainer">
+        <div id="videoPlaceholder">
+           <video id="videoid" style="object-fit: fill;" width="100%" height="100%"  mute autoplay loop>
+               <source src="" type="video/mp4">
+           </video>
+        </div>
+        <div id="bodyText"></div>
+    </div>
+
+    <script src="./js/template.js" type="text/javascript"></script>
+
+    <script>
+         
+         function loadAppInfo() 
+         {
+           var xhttp = new XMLHttpRequest();
+           //alert("loadAppInfo()");
+           xhttp.open("GET", "./videoparam.txt", false);
+           xhttp.send();
+           try {
+             alert(xhttp.responseText);
+             var videoParam = xhttp.responseText;
+             document.getElementById("videoid").src = videoParam;
+           } catch (err) {
+              console.log(err);
+           }
+         }
+          // loadAppInfo();
+       </script>
+</body>
+
+</html>

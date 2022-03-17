@@ -1,0 +1,58 @@
+{
+  "debug"    :
+  {
+    "main_debug" : true
+  },
+
+  "playlist" :
+  {
+    "type"                                 : "mood_v5",
+
+    "local_folder"                         : "moodmedia/playlist/",
+    "local_file_name"                      : "playlist_v5.json",
+
+    "local_temporary_folder"               : "tmp/playlist/",
+    "local_temporary_file_name"            : "playlist_v5.json",
+
+    "remote_base_folder"                   : "v5/player_playlists/",
+    "remote_file_name"                     : "playlist.json",
+
+    "encrypted_local_folder"          : "moodmedia/playlist/",
+    "encrypted_local_file_name"            : "playlist_v5.json",
+
+    "encrypted_local_temporary_folder"     : "tmp/playlist/",
+    "encrypted_local_temporary_file_name"  : "playlist_v5.zip",
+
+    "encrypted_remote_base_folder"         : "v5/player_playlists/",
+    "encrypted_remote_file_name"           : "playlist.zip"
+  },
+
+  "media_files" :
+  {
+    "local_folder"                         : "media_files/",
+
+    "local_temporary_folder"               : "tmp/media_files/",
+
+    "remote_base_folder"                   : "/v5/medias/",
+    "remote_base_folder2"                  : "/parts/",
+
+    "encrypted_local_folder"               : "media_encrypted/",
+
+    "encrypted_local_temporary_folder"     : "tmp/media_encrypted/",
+
+    "encrypted_remote_base_folder"         : "/v5/medias/",
+    "encrypted_remote_base_folder2"        : "/parts/"
+  },
+
+  "hardwareSettings" :
+  {
+    "serial" : "PC100001"
+  },
+
+  "cloudApiSettings" :
+  {
+    "baseServerApiUrl" : "https://mvision-qa.moodnet.eu/"
+  },
+
+  "playerPlaylist" : "https://mvision-qa.moodnet.eu/v5/player_playlists/PC100001/playlist.json"
+}

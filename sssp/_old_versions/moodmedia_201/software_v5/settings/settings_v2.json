@@ -1,0 +1,376 @@
+{
+  "debug": {
+    "main_debug": true
+  },
+  "software_tizen": {
+    "software_type": ".wgt",
+    "software_local_folder": "moodmedia/app/tizen/",
+    "software_local_file_name": "SSSP4MVisionJsPlaybackEngine.wgt",
+    "software_local_temporary_folder": "tmp/app/tizen/",
+    "software_local_temporary_file_name": "SSSP4MVisionJsPlaybackEngine.wgt",
+    "software_remote_server_url": "http://192.168.0.222:9080/",
+    "software_remote_folder": "app/tizen/",
+    "software_remote_file_name": "SSSP4MVisionJsPlaybackEngine.wgt",
+    "softwareconfig_type": ".xml",
+    "softwareconfig_local_folder": "moodmedia/app/tizen/",
+    "softwareconfig_local_file_name": "sssp_config.xml",
+    "softwareconfig_local_temporary_folder": "tmp/app/tizen/",
+    "softwareconfig_local_temporary_file_name": "sssp_config.xml",
+    "softwareconfig_remote_server_url": "http://192.168.0.222:9080/",
+    "softwareconfig_remote_folder": "app/tizen/",
+    "softwareconfig_remote_file_name": "sssp_config.xml",
+    "software_encrypted_type": ".wgt.zip",
+    "software_encrypted_local_folder": "moodmedia/app/tizen_encrypted/",
+    "software_encrypted_local_file_name": "SSSP4MVisionJsPlaybackEngine_wgt.zip",
+    "software_encrypted_remote_server_url": "http://192.168.0.222:9080/",
+    "software_encrypted_local_temporary_folder": "tmp/app/tizen_encrypted/",
+    "software_encrypted_local_temporary_file_name": "SSSP4MVisionJsPlaybackEngine_wgt.zip",
+    "software_encrypted_remote_folder": "app/tizen_encrypted/",
+    "software_encrypted_remote_file_name": "SSSP4MVisionJsPlaybackEngine_wgt.zip",
+    "softwareconfig_encrypted_type": ".xml.zip",
+    "softwareconfig_encrypted_local_folder": "moodmedia/app/tizen_encrypted/",
+    "softwareconfig_encrypted_local_file_name": "sssp_config_xml.zip",
+    "softwareconfig_encrypted_remote_server_url": "http://192.168.0.222:9080/",
+    "softwareconfig_encrypted_local_temporary_folder": "tmp/app/tizen_encrypted/",
+    "softwareconfig_encrypted_local_temporary_file_name": "sssp_config_xml.zip",
+    "softwareconfig_encrypted_remote_folder": "app/tizen_encrypted/",
+    "softwareconfig_encrypted_remote_file_name": "sssp_config_xml.zip"
+  },
+  "software_windows": {
+    "software_type": ".zip",
+    "software_local_folder": "moodmedia/application/windows/",
+    "software_local_file_name": "MVisionJsPlaybackEngine_win.zip",
+    "software_local_temporary_folder": "tmp/application/windows/",
+    "software_local_temporary_file_name": "MVisionJsPlaybackEngine_win.zip",
+    "software_remote_server_url": "http://192.168.0.222:9080/",
+    "software_remote_folder": "application/tizen/",
+    "software_remote_file_name": "MVisionJsPlaybackEngine_win.zip",
+    "softwareconfig_type": ".json",
+    "softwareconfig_local_folder": "moodmedia/application/windows/",
+    "softwareconfig_local_file_name": "windows_config.json",
+    "softwareconfig_local_temporary_folder": "tmp/application/windows/",
+    "softwareconfig_local_temporary_file_name": "windows_config.json",
+    "softwareconfig_remote_server_url": "http://192.168.0.222:9080/",
+    "softwareconfig_remote_folder": "application/windows/",
+    "remote_softwareconfig_file_name": "windows_config.json",
+    "software_encrypted_type": ".zip.zip",
+    "software_encrypted_local_folder": "moodmedia/application/windows_encrypted/",
+    "software_encrypted_local_file_name": "MVisionJsPlaybackEngine_win.zip",
+    "software_encrypted_remote_server_url": "http://192.168.0.222:9080/",
+    "software_encrypted_local_temporary_folder": "tmp/application/windows_encrypted/",
+    "software_encrypted_local_temporary_file_name": "MVisionJsPlaybackEngine_win.zip",
+    "software_encrypted_remote_folder": "application/windows_encrypted/",
+    "software_encrypted_remote_file_name": "MVisionJsPlaybackEngine_win.zip",
+    "softwareconfig_encrypted_type": ".json.zip",
+    "softwareconfig_encrypted_local_folder": "moodmedia/application/windows_encrypted/",
+    "softwareconfig_encrypted_local_file_name": "windows_config_json.zip",
+    "softwareconfig_encrypted_remote_server_url": "http://192.168.0.222:9080/",
+    "softwareconfig_encrypted_local_temporary_folder": "tmp/application/windows_encrypted/",
+    "softwareconfig_encrypted_local_temporary_file_name": "windows_config_json.zip",
+    "softwareconfig_encrypted_remote_folder": "application/windows_encrypted/",
+    "softwareconfig_encrypted_remote_file_name": "windows_config_json.zip"
+  },
+  "playlist": {
+    "type": "mood_v5",
+    "local_folder": "moodmedia/playlist/",
+    "local_file_name": "playlist_v5.json",
+    "local_temporary_folder": "tmp/playlist/",
+    "local_temporary_file_name": "playlist_v5.json",
+    "remote_base_folder": "v5/player_playlists/",
+    "remote_file_name": "playlist.json",
+    "encrypted_local_folder": "moodmedia/playlist/",
+    "encrypted_local_file_name": "playlist_v5.json",
+    "encrypted_local_temporary_folder": "tmp/playlist/",
+    "encrypted_local_temporary_file_name": "playlist_v5.zip",
+    "encrypted_remote_base_folder": "v5/player_playlists/",
+    "encrypted_remote_file_name": "playlist.zip"
+  },
+  "media_files": {
+    "local_folder": "media_files/",
+    "local_temporary_folder": "tmp/media_files/",
+    "remote_base_folder": "/v5/medias/",
+    "remote_base_folder2": "/parts/",
+    "encrypted_local_folder": "media_encrypted/",
+    "encrypted_local_temporary_folder": "tmp/media_encrypted/",
+    "encrypted_remote_base_folder": "/v5/medias/",
+    "encrypted_remote_base_folder2": "/parts/"
+  },
+  "html_templates_files": {
+    "local_folder": "html_templates/",
+    "local_html_instance_data_file_partial_name1": "_",
+    "local_html_instance_data_file_partial_name2": ".json",
+    "local_html_feed_file_name": "files.json",
+    "local_temporary_folder": "tmp/html_templates/",
+    "local_temporary_html_instance_data_file_partial_name1": "_",
+    "local_temporary_html_instance_data_file_partial_name2": ".json",
+    "local_temporary_html_feed_file_name": "files.json",
+    "remote_base_folder": "/v5/medias/",
+    "remote_base_folder2": "/parts/",
+    "remote_base_folder3": "/v6/htmlInstanceFile/",
+    "remote_base_folder4": "?player=true&",
+    "remote_base_folder5": "serial=",
+    "remote_html_feed_file_name": "files.json",
+    "corrective_js_folder": "/moodmedia/software_v5/js/",
+    "encrypted_local_folder": "media_encrypted/",
+    "encrypted_local_html_instance_data_file_partial_name1": "_",
+    "encrypted_local_html_instance_data_file_partial_name2": ".json.zip",
+    "encrypted_local_html_feed_file_name": "files.json.zip",
+    "encrypted_local_temporary_folder": "tmp/media_encrypted/",
+    "encrypted_local_temporary_html_instance_data_file_partial_name1": "_",
+    "encrypted_local_temporary_html_instance_data_file_partial_name2": ".json.zip",
+    "encrypted_local_temporary_html_feed_file_name": "files.json.zip",
+    "encrypted_remote_base_folder": "/v5/medias/",
+    "encrypted_remote_base_folder2": "/parts/",
+    "encrypted_remote_base_folder3": "/v6/htmlInstanceFile/",
+    "encrypted_remote_base_folder4": "player=true&",
+    "encrypted_remote_base_folder5": "serial=",
+    "encrypted_remote_html_feed_file_name": "files.json",
+    "encrypted_corrective_js_folder": "/moodmedia/software_v5/js/"
+  },
+  "playlist_controller": {
+    "video_epsilon_time_before_natural_end_in_ms": 10
+  },
+  "monitoring": {
+    "start_timeout": 10,
+    "interval": 300,
+    "early_adopter": false,
+    "remote_relative_path": "/v6/player/monitoring"
+  },
+  "screenshot": {
+    "save_screenshot_to_file": true,
+    "return_screenshot_as_in_memory_image_bytes": false,
+    "send_screenshot_to_remote_server": true,
+    "make_screenshot_on_the_whole_screen": true,
+    "screenshot_rect_left": 0,
+    "screenshot_rect_top": 0,
+    "screenshot_rect_right": 1920,
+    "screenshot_rect_bottom": 1080,
+    "screenshot_format": "jpg",
+    "screenshot_jpg_quality": 50,
+    "screenshot_final_width": 400,
+    "screenshot_final_height": 300,
+    "screenshot_default_local_relative_path": "tmp/screenshots/",
+    "screenshot_default_local_file_name": "screenshot.jpg",
+    "screenshot_remote_default_relative_path": "/v5/UploadScreenshot.ashx",
+    "screenshot_default_remote_file_name": "screenshot.jpg"
+  },
+  "activity_log": {
+    "activity_log_enable": true,
+    "auto_upload_interval_seconds": 7200,
+    "auto_upload_enabled": true,
+    "file_enabled": true,
+    "send_buffer_max_size_kb": 512,
+    "send_local_sent_path": "/tmp/logs/activity/send_activitylogs/",
+    "send_local_base_name": "activity.log",
+    "save_buffer_max_size_kb": 0,
+    "save_local_path": "/tmp/logs/activity/save_activitylogs/",
+    "save_local_base_name": "activity.log",
+    "save_local_file_split_size_in_mb": 100,
+    "server_endpoint": "FilesHandler.ashx",
+    "server_endpoint_path": "v5/RestServices",
+    "verbosity_type": "All"
+  },
+  "startup": {
+    "update_serial_no_if_empty": true,
+    "set_default_system_settings_at_startup": true,
+    "save_settings_last_values_at_startup": true,
+    "save_settings_last_values_at_a_refresh_rates": false,
+    "save_settings_last_values_refresh_time": 30,
+    "default_system_settings": {
+      "default_audio_settings": {
+        "default_volume_level": 20,
+        "apply_default_volume_level_at_startup": true,
+        "last_volume_level": 20
+      },
+      "default_display_settings": {
+        "default_screen_width": 1920,
+        "default_screen_height": 1080,
+        "default_screen_orientation": "landscape",
+        "default_contrast_level": 50,
+        "default_brightness_level": 80,
+        "last_screen_width": 1920,
+        "last_screen_height": 1080,
+        "last_screen_orientation": "landscape",
+        "last_contrast_level": 50,
+        "last_brightness_level": 100,
+        "apply_default_screen_width_at_startup": false,
+        "apply_default_screen_height_at_startup": false,
+        "apply_default_screen_orientation_at_startup": false,
+        "apply_default_screen_contrast_level_at_startup": false,
+        "apply_default_screen_brightness_level_at_startup": true
+      },
+      "default_time_settings": {
+        "use_mood_server": true,
+        "time_server_url": "v5/serverinfos.ashx",
+        "time_server_time_zone": "Atlantic/Azores",
+        "apply_time_server_as_device_time_at_startup": true,
+        "default_device_time_zone": "Europe/Bucharest",
+        "last_device_time_zone": "Europe/Bucharest",
+        "apply_default_device_time_zone_at_startup": true,
+        "use_ntp": false,
+        "last_use_ntp": false,
+        "ntp_server_url": "pool.ntp.org",
+        "last_ntp_server_url": "pool.ntp.org",
+        "ntp_timezone": "Europe/Bucharest",
+        "last_ntp_timezone": "Europe/Bucharest"
+      },
+      "default_language_settings": {
+        "default_device_main_language": "ro-RO",
+        "last_device_main_language": "en-US",
+        "apply_default_device_main_language_at_startup": true
+      }
+    }
+  },
+  "cron_service": {
+    "schedule_infos": [
+      {
+        "service_name": "RS_PlaylistDownloader",
+        "service_abstract_name": "AS_PlaylistDownloader",
+        "schedule_type": "schedule_type_at_time_interval",
+        "schedule_time_interval": {
+          "repeat_interval_in_s": 60
+        },
+        "schedule_start": {
+          "at_time": "00:00:00",
+          "at_date": "2000-01-01"
+        },
+        "schedule_availability": {
+          "from_time": "00:00:00",
+          "from_date": "2000-01-01",
+          "to_time": "23:59:59",
+          "to_date": "2099-31-12",
+          "in_weekdays": "1111111"
+        },
+        "schedule_at_startup": {
+          "run_at_startup": true,
+          "startup_priority": 2,
+          "wait_at_startup_to_finish": true
+        },
+        "schedule_run_only_one_service_instance_once": true,
+        "service_action": "run",
+        "service_action_parameters": [
+          {
+            "param_type": "number",
+            "param_name": "p1",
+            "param_value": "10"
+          },
+          {
+            "param_type": "number",
+            "param_name": "p2",
+            "param_value": "20"
+          }
+        ],
+        "service_constraints": [
+          {
+            "constraint_type": "constraint_run_reference_service_at_the_end_for_status",
+            "reference_service_name": "R_PlaylistController",
+            "reference_service_abstract_name": "A_PlaylistController",
+            "current_service_status": "status_playlist_changed"
+          },
+          {
+            "constraint_type": "constraint_postpone_run_till_reference_service_ended",
+            "reference_service_name": "RS_HtmlTemplateDownloader",
+            "reference_service_abstract_name": "AS_HtmlTemplateDownloader",
+            "current_service_status": "status_all"
+          }
+        ]
+      },
+      {
+        "service_name": "RS_HtmlTemplateDownloader",
+        "service_abstract_name": "AS_HtmlTemplateDownloader",
+        "schedule_type": "schedule_type_at_time_interval",
+        "schedule_time_interval": {
+          "repeat_interval_in_s": 20
+        },
+        "schedule_start": {
+          "at_time": "00:00:00",
+          "at_date": "2000-01-01"
+        },
+        "schedule_availability": {
+          "from_time": "00:00:00",
+          "from_date": "2000-01-01",
+          "to_time": "23:59:59",
+          "to_date": "2099-31-12",
+          "in_weekdays": "1111111"
+        },
+        "schedule_at_startup": {
+          "run_at_startup": false,
+          "startup_priority": 2,
+          "wait_at_startup_to_finish": false
+        },
+        "schedule_run_only_one_service_instance_once": true,
+        "service_action": "run",
+        "service_action_parameters": [
+          {
+            "param_type": "number",
+            "param_name": "p1",
+            "param_value": "10"
+          },
+          {
+            "param_type": "number",
+            "param_name": "p2",
+            "param_value": "20"
+          }
+        ],
+        "service_constraints": [
+          {
+            "constraint_type": "constraint_cannot_run_if_reference_service_run",
+            "reference_service_name": "RS_HtmlTemplateDownloader",
+            "reference_service_abstract_name": "AS_HtmlTemplateDownloader"
+          },
+          {
+            "constraint_type": "constraint_postpone_run_till_reference_service_ended",
+            "reference_service_name": "RS_PlaylistDownloader",
+            "reference_service_abstract_name": "AS_PlaylistDownloader",
+            "current_service_status": "status_all"
+          }
+        ]
+      },
+      {
+        "service_name": "R_PlaylistController",
+        "service_abstract_name": "A_PlaylistController",
+        "schedule_type": "schedule_type_none",
+        "schedule_time_interval": {
+          "repeat_interval_in_s": 20
+        },
+        "schedule_start": {
+          "at_time": "00:00:00",
+          "at_date": "2000-01-01"
+        },
+        "schedule_availability": {
+          "from_time": "00:00:00",
+          "from_date": "2000-01-01",
+          "to_time": "23:59:59",
+          "to_date": "2099-31-12",
+          "in_weekdays": "1111111"
+        },
+        "schedule_at_startup": {
+          "run_at_startup": true,
+          "startup_priority": 1,
+          "wait_at_startup_to_finish": false
+        },
+        "schedule_run_only_one_service_instance_once": true,
+        "service_action": "run",
+        "service_action_parameters": [
+          {
+            "param_type": "number",
+            "param_name": "p1",
+            "param_value": "10"
+          },
+          {
+            "param_type": "number",
+            "param_name": "p2",
+            "param_value": "20"
+          }
+        ],
+        "service_constraints": []
+      }
+    ]
+  },
+  "hardwareSettings": {
+    "serial": "PC100001"
+  },
+  "cloudApiSettings": {
+    "baseServerApiUrl": "https://mvision-qa.moodnet.eu/"
+  }
+}

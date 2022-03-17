@@ -1,0 +1,136 @@
+.listItemButton {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+.listItemButtonSelected {
+    background-color: #9dc8eb;
+}
+
+.listItemButton:focus {
+    background-color: #9dc8eb;
+    outline: none;
+}
+
+.listItemButton:active {
+    background-color: #80a4c2;
+}
+
+.listItemButton:disabled {
+    color: #cccccc;
+}
+
+.sectionsContainer {
+    position: absolute;
+    left: 0px;
+    right: 75%;
+    top: 50px;
+    bottom: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.sectionButton {
+    font-size: 18px;
+    padding: 15px 0 15px 32px;
+    text-align: left;
+    line-height: 18px;
+}
+
+.sectionDetailsContainer {
+    position: absolute;
+    left: 25%;
+    right: 0px;
+    top: 50px;
+    bottom: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.dataViewButton {
+    min-height: 70px;
+    padding: 15px 0;
+    border-bottom: 1px solid #dddddd;
+}
+
+.dataViewTitle {
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.dataViewDetails {
+    font-size: 18px;
+    margin-left: 24px;
+    white-space: pre-line;
+    text-align: left;
+    line-height: 18px;
+}
+
+hr.separator {
+    border: none;
+    height: 0.5px;
+    color: #dddddd;
+    background-color: #dddddd;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.verticalSeparator {
+    position: absolute;
+    left: 25%;
+    width: 1px;
+    top: 50px;
+    bottom: 0px;
+    background-color: #dddddd;
+}
+
+.settingsRangeInput {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    flex-grow: 1;
+}
+
+.settingsRangeInputValueText {
+    width: 5ch;
+    text-align: right;
+}
+
+.valueValidationMessageHint {
+    margin-top: 8px;
+    font-size: 14px;
+    white-space: pre-line;
+    color: #cccccc;
+}
+
+.valueValidationMessageHintError {
+    color: #ff0000;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 92099; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}  

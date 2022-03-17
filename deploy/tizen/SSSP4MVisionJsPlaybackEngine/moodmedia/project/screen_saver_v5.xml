@@ -1,0 +1,9 @@
+<messages>
+  <buffer_message trans_id="0000">
+    <file>moodmedia/project/screen_saver/screensaver.mp4</file>
+    <last_media_in_zone>False</last_media_in_zone>
+    <type>form_videoplayer</type>
+    <duration>10077</duration>
+    <position>Stretch</position>
+  </buffer_message>
+</messages>

@@ -1,0 +1,9 @@
+<messages>
+  <buffer_message trans_id="0000">
+    <type>form_image</type>
+    <dur>4000</dur>
+    <stretch>True</stretch>
+    <aspect_ratio>True</aspect_ratio>
+    <file>D:\moodmedia\project\screen_saver\screensaver_black.jpg</file>
+  </buffer_message>
+</messages>

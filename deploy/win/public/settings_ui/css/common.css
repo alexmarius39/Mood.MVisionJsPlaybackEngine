@@ -1,0 +1,176 @@
+.zone {
+    position: absolute;
+    overflow: hidden;
+}
+
+.match_parent {
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+dialog {
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);  
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5); 
+    min-width: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 8px;
+    font-size: 16px;
+    display:block;
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+input:focus {
+    outline: none;
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+}
+
+select:focus {
+    outline: none;
+}
+
+.dialogButton {
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background-color: #cccccc;
+    margin-left: 16px;
+    outline: none;
+}
+
+.dialogButton:focus {
+    background-color: #aaaaaa;
+}
+
+.dialogButton:active {
+    background-color: #888888;
+}
+
+.dialogContentVerticalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.dialogContentHorizontalContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dialogTitleText {
+    font-size: 14px;
+    font-weight: bold;
+    white-space: pre-line;
+}
+
+.dialogMessageText {
+    font-size: 14px;
+    white-space: pre-line;
+}
+
+.dialogButtonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 16px;
+}
+
+.appHeader {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+
+    display: flex;
+    flex-direction: row;
+    
+    color: #ffffff;
+    background-color: #AE1927;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.backButton {
+    margin-left: 8px;
+    background-image: -webkit-image-set(
+        url(../images/arrow_back_white_24dp_1x.png) 1x,
+        url(../images/arrow_back_white_24dp_2x.png) 2x
+    );
+    background-image: image-set(
+        url(../images/arrow_back_white_24dp_1x.png) 1x,
+        url(../images/arrow_back_white_24dp_2x.png) 2x
+    );
+    background-position: left center;
+    background-repeat: no-repeat no-repeat;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-focus-ring-color: transparent;
+    outline: none;
+    text-decoration: none;
+    color: #ffffff;
+    width: 32px;
+    height: 21px;
+}
+
+.backButtonSpan {
+    display: inline-block;
+    width: 32px; 
+}
+
+.appHeaderButtonsSeparator {
+    flex-grow: 1;
+}
+
+.appHeaderButton {
+    margin-right: 16px;
+    padding: 4px;
+    background-color: transparent;
+    color: #ffffff;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-focus-ring-color: transparent;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+
+.appHeaderButton:disabled {
+    color: #ffffff55;
+    border: 1px solid #ffffff55;
+}
+
+.appHeaderButton:focus {
+    background-color: #ffffff55;
+}
+
+.appHeaderButton:active {
+    background-color: #ffffff;
+    color: #AE1927;
+}

@@ -1,0 +1,178 @@
+{
+    "components": [
+        {
+            "name": "Menu Options",
+            "label": {
+                "en-US": {
+                    "value": "Menu Options",
+                    "tooltip": "Content for the menu."
+                }
+            },
+            "params": [
+                {
+                    "name": "Menu Content",
+                    "label": {
+                        "en-US": {
+                            "value": "Menu Content",
+                            "tooltip": "Format: [Header | Sub-header], Item Name | Price | Description | Calories"
+                        }
+                    },
+                    "type": "array",
+                    "value": [
+                        "[Header | Sub-header]",
+                        "Item Name | Price | Description | Calories",
+                        "Item Name | Price | Description | Calories",
+                        "Item Name | Price | Description | Calories",
+                        "Item Name | Price | Description | Calories",
+                        "Item Name | Price | Description | Calories",
+                        "Item Name | Price | Description | Calories",
+                        "Item Name | Price | Description | Calories",
+                        ")Sub Item 1 | Sub Item 2 | Sub Item 3",
+                        "Item Name | Price | Description | Calories"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Color Options",
+            "label": {
+                "en-US": {
+                    "value": "Color Options",
+                    "tooltip": "Options for the color of each element."
+                }
+            },
+            "params": [
+                {
+                    "name": "Menu Background",
+                    "label": {
+                        "en-US": {
+                            "value": "Menu Background",
+                            "tooltip": "The color of the menu background."
+                        }
+                    },
+                    "type": "color",
+                    "value": "#f6faff"
+                },
+                {
+                    "name": "Menu Header",
+                    "label": {
+                        "en-US": {
+                            "value": "Menu Header",
+                            "tooltip": "The color of the menu header text."
+                        }
+                    },
+                    "type": "color",
+                    "value": "#cd4949"
+                },
+                {
+                    "name": "Menu Sub-Header",
+                    "label": {
+                        "en-US": {
+                            "value": "Menu Sub-Header",
+                            "tooltip": "The color of the menu sub-header text."
+                        }
+                    },
+                    "type": "color",
+                    "value": "#3e3e3e"
+                },
+                {
+                    "name": "Item Name",
+                    "label": {
+                        "en-US": {
+                            "value": "Item Name",
+                            "tooltip": "The color of the item name text."
+                        }
+                    },
+                    "type": "color",
+                    "value": "#cd4949"
+                },
+                {
+                    "name": "Item Price",
+                    "label": {
+                        "en-US": {
+                            "value": "Item Price",
+                            "tooltip": "The color of the item price text."
+                        }
+                    },
+                    "type": "color",
+                    "value": "#cd4949"
+                },
+                {
+                    "name": "Item Description",
+                    "label": {
+                        "en-US": {
+                            "value": "Item Description",
+                            "tooltip": "The color of the item description text."
+                        }
+                    },
+                    "type": "color",
+                    "value": "#3e3e3e"
+                },
+                {
+                    "name": "Item Calories",
+                    "label": {
+                        "en-US": {
+                            "value": "Item Calories",
+                            "tooltip": "The color of the item calories text."
+                        }
+                    },
+                    "type": "color",
+                    "value": "#3e3e3e"
+                }
+            ]
+        },
+        {
+            "name": "Image Options",
+            "label": {
+                "en-US": {
+                    "value": "Image Options",
+                    "tooltip": "Options for the image display."
+                }
+            },
+            "params": [
+                {
+                    "name": "Menu Image Position",
+                    "label": {
+                        "en-US": {
+                            "value": "Menu Image Position",
+                            "tooltip": "Which side of the menu items to show the image(s) on."
+                        }
+                    },
+                    "type": "select",
+                    "value": "Right",
+                    "typeOptions": {
+                        "renderType": "radio",
+                        "values": [
+                            "Left",
+                            "Right"
+                        ]
+                    }
+                },
+                {
+                    "name": "Images",
+                    "label": {
+                        "en-US": {
+                            "value": "Images",
+                            "tooltip": "Images to display alongside the menu. Add more than one image to create a slideshow."
+                        }
+                    },
+                    "value": [
+                        "./images/bg.jpg"
+                    ],
+                    "type": "imageReference"
+                },
+                {
+                    "name": "Slideshow Duration",
+                    "label": {
+                        "en-US": {
+                            "value": "Slideshow Duration",
+                            "tooltip": "If there is more than one image, the time (in seconds) each image should be displayed for. Minimum 3 seconds."
+                        }
+                    },
+                    "type": "int",
+                    "value": 10
+                }
+            ]
+        }
+    ]
+}

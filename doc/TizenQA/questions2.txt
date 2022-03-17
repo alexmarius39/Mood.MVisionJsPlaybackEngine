@@ -1,0 +1,68 @@
+Hi Marius,
+I have some answers from Samsung on your questions. Please take a look at the answers below. Between <Samsung> tags.
+
+A. File Systems Questions/Help:
+> >     ============================
+> >        1.  Can you supply us, a sample code for the zip / unzip functionalities using SSSP Tizen API?
+
+<Samsung>
+        Refer to https://www.samsungdforum.com/B2B/cmsguide/GuideView/8981
+        Check for add and extract all API
+        I don’t have a demo for this specifically
+        For extract all refer to the following demo http://13.56.70.14:81/repoapi/DEMOS/NodeCMS.wgt
+        Under file js/helpers/filesystem.js line 13.
+</Samsung>
+
+> >        2. Can you supply a sample code for a recursive copy of a folder from the usb to another target folder from the same usb ? Is the recursivity of the copy folder operations a parameter in Tizen Api?
+> >               Note : Also, In SSSP4 a "copy folder operation" - erased all the content of the target directory.
+> >              Is this limitation still in place on SSSP6?
+<Samsung>
+        Refer to the following demo for Copy
+        http://13.56.70.14:81/repoapi/TIZEN/FileSystemTV.wgt
+</Samsung>
+
+> >
+> >       3. Similar, please, can you supply a sample code for a
+> > recursive deletion of a folder from the usb (to delete all files and
+> > all folders from the target folder and all its subfolders)
+<Samsung>
+        Refer to the following demo for delete dir including content
+        http://13.56.70.14:81/repoapi/TIZEN/FileSystemTV.wgt
+</Samsung>
+>     B. How to install and start a Tizen Application (a Widget) on SSSP - not from the TVdevice menus (via url or via usb) - but programmatically from our code? Do you have these functionalities accessible via Tizen API functions?
+<Samsung>
+         There are no ways that an SSSP application can install another SSSP application, what can be done via API is to control where to search from an application. For example control the URL launcher URL.
+        This can be achieved http://13.56.70.14:81/repoapi/B2BCONTROL/B2BUrlLauncher.wgt
+</Samsung>
+
+> >    ==================
+> >              We need this functionality in order to manage and control the installation of our widgets programmatically - from our code.
+> >                This is necessary in order to deliver to our servers the moment and the status of these  installations (and to install programmatically  different applications and different versions of our applications) .
+> >                Also we need automatically and programmatically to come back to the previous versions in case of installation errors but also in case of future application critical errors etc...
+<Samsung>This must be controlled from the CMS side. Device does not have the ability to have a history of all applications installed. </mario>
+
+
+> >
+> >                 Note: after these operations we would need to always
+> > reboot/restart the device (please if you have a sample code for the
+> > reboot operation too)
+<Samsung>
+        Check the following demo
+        http://13.56.70.14:81/repoapi/B2BCONTROL/B2BPowerControl.wgt
+</Samsung>
+
+> >      C. How to access local html pages placed on some usb folders as local web urls/uris specified in iframes
+<Samsung>
+        You will need to provide the absolute path of such a resource. For example if you have a video called video1.mp4 inside your USB
+        IN the iframe must be called as opt/media/USBDriveA1/a1s.mp4 In order to display it.
+        Absolute path can be obtained from the filesystem demo.
+</Samsung>
+
+
+<Samsung>
+        For the question related concatenation try checking the API https://www.samsungdforum.com/B2B/cmsguide/GuideView/8982#FileStream
+        This api will allow you to create files to store strings and also concatenate to existing files.
+</Samsung>
+
+Thanks
+David

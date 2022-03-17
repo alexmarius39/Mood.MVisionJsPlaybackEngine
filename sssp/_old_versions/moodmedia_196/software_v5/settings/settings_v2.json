@@ -1,0 +1,210 @@
+{
+
+  "debug"    :
+  {
+    "main_debug" : false
+  },
+
+  "software_tizen" :
+  {
+    "software_type"                        : ".wgt",
+    "software_local_folder"                : "moodmedia/app/tizen/",
+    "software_local_file_name"             : "SSSP4MVisionJsPlaybackEngine.wgt",
+    "software_local_temporary_folder"      : "tmp/app/tizen/",
+    "software_local_temporary_file_name"   : "SSSP4MVisionJsPlaybackEngine.wgt",
+    "software_remote_server_url"           : "http://192.168.0.222:9080/",
+    "software_remote_folder"               : "app/tizen/",
+    "software_remote_file_name"            : "SSSP4MVisionJsPlaybackEngine.wgt",
+
+    "softwareconfig_type"                       : ".xml",
+    "softwareconfig_local_folder"               : "moodmedia/app/tizen/",
+    "softwareconfig_local_file_name"            : "sssp_config.xml",
+    "softwareconfig_local_temporary_folder"     : "tmp/app/tizen/",
+    "softwareconfig_local_temporary_file_name"  : "sssp_config.xml",
+    "softwareconfig_remote_server_url"          : "http://192.168.0.222:9080/",
+    "softwareconfig_remote_folder"              : "app/tizen/",
+    "softwareconfig_remote_file_name"           : "sssp_config.xml",
+    
+    "software_encrypted_type"                        : ".wgt.zip",
+    "software_encrypted_local_folder"                : "moodmedia/app/tizen_encrypted/",
+    "software_encrypted_local_file_name"             : "SSSP4MVisionJsPlaybackEngine_wgt.zip",
+    "software_encrypted_remote_server_url"           : "http://192.168.0.222:9080/",
+    "software_encrypted_local_temporary_folder"      : "tmp/app/tizen_encrypted/",
+    "software_encrypted_local_temporary_file_name"   : "SSSP4MVisionJsPlaybackEngine_wgt.zip",
+    "software_encrypted_remote_folder"               : "app/tizen_encrypted/",
+    "software_encrypted_remote_file_name"            : "SSSP4MVisionJsPlaybackEngine_wgt.zip",
+ 
+    "softwareconfig_encrypted_type"                      : ".xml.zip",
+    "softwareconfig_encrypted_local_folder"              : "moodmedia/app/tizen_encrypted/",
+    "softwareconfig_encrypted_local_file_name"           : "sssp_config_xml.zip",
+    "softwareconfig_encrypted_remote_server_url"         : "http://192.168.0.222:9080/",
+    "softwareconfig_encrypted_local_temporary_folder"    : "tmp/app/tizen_encrypted/",
+    "softwareconfig_encrypted_local_temporary_file_name" : "sssp_config_xml.zip",
+    "softwareconfig_encrypted_remote_folder"             : "app/tizen_encrypted/",
+    "softwareconfig_encrypted_remote_file_name"          : "sssp_config_xml.zip"
+  },
+
+  "software_windows" :
+  {
+    "software_type"                        : ".zip",
+    "software_local_folder"                : "moodmedia/application/windows/",
+    "software_local_file_name"             : "MVisionJsPlaybackEngine_win.zip",
+    "software_local_temporary_folder"      : "tmp/application/windows/",
+    "software_local_temporary_file_name"   : "MVisionJsPlaybackEngine_win.zip",
+    "software_remote_server_url"           : "http://192.168.0.222:9080/",
+    "software_remote_folder"               : "application/tizen/",
+    "software_remote_file_name"            : "MVisionJsPlaybackEngine_win.zip",
+
+    "softwareconfig_type"                       : ".json",
+    "softwareconfig_local_folder"               : "moodmedia/application/windows/",
+    "softwareconfig_local_file_name"            : "windows_config.json",
+    "softwareconfig_local_temporary_folder"     : "tmp/application/windows/",
+    "softwareconfig_local_temporary_file_name"  : "windows_config.json",
+    "softwareconfig_remote_server_url"          : "http://192.168.0.222:9080/",
+    "softwareconfig_remote_folder"              : "application/windows/",
+    "remote_softwareconfig_file_name"           : "windows_config.json",
+    
+    "software_encrypted_type"                        : ".zip.zip",
+    "software_encrypted_local_folder"                : "moodmedia/application/windows_encrypted/",
+    "software_encrypted_local_file_name"             : "MVisionJsPlaybackEngine_win.zip",
+    "software_encrypted_remote_server_url"           : "http://192.168.0.222:9080/",
+    "software_encrypted_local_temporary_folder"      : "tmp/application/windows_encrypted/",
+    "software_encrypted_local_temporary_file_name"   : "MVisionJsPlaybackEngine_win.zip",
+    "software_encrypted_remote_folder"               : "application/windows_encrypted/",
+    "software_encrypted_remote_file_name"            : "MVisionJsPlaybackEngine_win.zip",
+ 
+    "softwareconfig_encrypted_type"                      : ".json.zip",
+    "softwareconfig_encrypted_local_folder"              : "moodmedia/application/windows_encrypted/",
+    "softwareconfig_encrypted_local_file_name"           : "windows_config_json.zip",
+    "softwareconfig_encrypted_remote_server_url"         : "http://192.168.0.222:9080/",
+    "softwareconfig_encrypted_local_temporary_folder"    : "tmp/application/windows_encrypted/",
+    "softwareconfig_encrypted_local_temporary_file_name" : "windows_config_json.zip",
+    "softwareconfig_encrypted_remote_folder"             : "application/windows_encrypted/",
+    "softwareconfig_encrypted_remote_file_name"          : "windows_config_json.zip"
+  },
+
+  "playlist" :
+  {
+    "type"                                 : "mood_v5",
+
+    "local_folder"                         : "moodmedia/playlist/",
+    "local_file_name"                      : "playlist_v5.json",
+
+    "local_temporary_folder"               : "tmp/playlist/",
+    "local_temporary_file_name"            : "playlist_v5.json",
+
+    "remote_base_folder"                   : "v5/player_playlists/",
+    "remote_file_name"                     : "playlist.json",
+
+    "encrypted_local_folder"               : "moodmedia/playlist/",
+    "encrypted_local_file_name"            : "playlist_v5.json",
+
+    "encrypted_local_temporary_folder"     : "tmp/playlist/",
+    "encrypted_local_temporary_file_name"  : "playlist_v5.zip",
+
+    "encrypted_remote_base_folder"         : "v5/player_playlists/",
+    "encrypted_remote_file_name"           : "playlist.zip"
+  },
+
+  "media_files" :
+  {
+    "local_folder"                           : "media_files/",
+
+    "local_temporary_folder"                 : "tmp/media_files/",
+
+    "remote_base_folder"                     : "/v5/medias/",
+    "remote_base_folder2"                    : "/parts/",
+
+    "encrypted_local_folder"                 : "media_encrypted/",
+
+    "encrypted_local_temporary_folder"       : "tmp/media_encrypted/",
+
+    "encrypted_remote_base_folder"           : "/v5/medias/",
+    "encrypted_remote_base_folder2"          : "/parts/"
+  },
+
+  "html_templates_files" :
+  {
+    "local_folder"                                          : "html_templates/",
+
+    "local_html_instance_data_file_partial_name1"           : "_",
+    "local_html_instance_data_file_partial_name2"           : ".json",
+    "local_html_feed_file_name"                             : "files.json",
+
+    "local_temporary_folder"                                : "tmp/html_templates/",
+    "local_temporary_html_instance_data_file_partial_name1" : "_",
+    "local_temporary_html_instance_data_file_partial_name2" : ".json",
+    "local_temporary_html_feed_file_name"                   : "files.json",
+
+    "remote_base_folder"                                    : "/v5/medias/",
+    "remote_base_folder2"                                   : "/parts/",
+    "remote_base_folder3"                                   : "/v6/htmlInstanceFile/",
+    "remote_base_folder4"                                   : "?player=true&",
+    "remote_base_folder5"                                   : "serial=",
+    "remote_html_feed_file_name"                            : "files.json",
+
+    "corrective_js_folder"                                  : "/moodmedia/software_v5/js/",
+    
+    "encrypted_local_folder"                                : "media_encrypted/",
+    "encrypted_local_html_instance_data_file_partial_name1" : "_",
+    "encrypted_local_html_instance_data_file_partial_name2" : ".json.zip",
+    "encrypted_local_html_feed_file_name"                   : "files.json.zip",
+
+    "encrypted_local_temporary_folder"                      : "tmp/media_encrypted/",
+    "encrypted_local_temporary_html_instance_data_file_partial_name1" : "_",
+    "encrypted_local_temporary_html_instance_data_file_partial_name2" : ".json.zip",
+    "encrypted_local_temporary_html_feed_file_name"         : "files.json.zip",
+
+    "encrypted_remote_base_folder"                          : "/v5/medias/",
+    "encrypted_remote_base_folder2"                         : "/parts/",
+    "encrypted_remote_base_folder3"                         : "/v6/htmlInstanceFile/",
+    "encrypted_remote_base_folder4"                         : "player=true&",
+    "encrypted_remote_base_folder5"                         : "serial=",
+    "encrypted_remote_html_feed_file_name"                  : "files.json",
+
+    "encrypted_corrective_js_folder"                        : "/moodmedia/software_v5/js/"
+  },
+
+  "monitoring":
+  {
+      "start_timeout":10,
+      "interval":300,
+      "early_adopter": false,
+      "remote_relative_path": "/v6/player/monitoring"
+   },
+
+   "screenshot" : 
+   {
+      "save_screenshot_to_file"				: true, 
+      "return_screenshot_as_in_memory_image_bytes"	: false, 
+      "send_screenshot_to_remote_server"		: true, 
+
+      "make_screenshot_on_the_whole_screen" 		: true,
+      "screenshot_rect_left"				: 0,
+      "screenshot_rect_top"				: 0,
+      "screenshot_rect_right"				: 1920,
+      "screenshot_rect_bottom"				: 1080,
+
+      "screenshot_format"				: "jpg",
+      "screenshot_jpg_quality"				: 50,
+      "screenshot_final_width"				: 400,
+      "screenshot_final_height"				: 300,
+
+      "screenshot_default_local_relative_path"		: "tmp/screenshots/",
+      "screenshot_default_local_file_name"		: "screenshot.jpg",
+
+      "screenshot_remote_default_relative_path"		: "/v5/UploadScreenshot.ashx",
+      "screenshot_default_remote_file_name"		: "screenshot.jpg"
+  },
+
+  "hardwareSettings" :
+  {
+    "serial" : "SOC_HW2"
+  },
+
+  "cloudApiSettings" :
+  {
+    "baseServerApiUrl" : "https://mvision-qa.moodnet.eu/"
+  }
+
+}
